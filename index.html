@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Channel Name</title>
+  <title>Joe's Learning Corner</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <!-- HERO -->
   <header class="hero">
-    <div class="container">
-      <h1>Your YouTube Channel</h1>
-      <p>Helping you learn, build, and grow 🚀</p>
-      <a href="#videos" class="btn">Watch Videos</a>
+    <div class="overlay"></div>
+    <div class="container hero-content">
+      <h1>Joe's Learning Corner</h1>
+      <p>Learn. Build. Level Up.</p>
+      <a href="#videos" class="btn">Watch Latest Videos</a>
     </div>
   </header>
 
@@ -21,16 +22,16 @@
   <section class="about container">
     <h2>About</h2>
     <p>
-      I create content about [your niche]. Expect tutorials, breakdowns,
-      and real-world insights without the fluff.
+      Welcome to Joe's Learning Corner — where tech, coding, and game dev meet.
+      I break things down simply, build projects from scratch, and share what actually works.
     </p>
   </section>
 
   <!-- EMAIL SIGNUP -->
   <section class="signup">
     <div class="container">
-      <h2>Join the Newsletter</h2>
-      <p>Get updates when new videos drop.</p>
+      <h2>Stay in the Loop</h2>
+      <p>No spam. Just builds, ideas, and useful stuff.</p>
       <form id="emailForm">
         <input type="email" placeholder="Enter your email" required />
         <button type="submit">Subscribe</button>
@@ -44,16 +45,28 @@
     <h2>Latest Videos</h2>
 
     <div class="video-grid">
-      <!-- Replace with your actual video embeds -->
-      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+
+      <!-- Channel Featured Video -->
+      <iframe 
+        src="https://www.youtube.com/embed?listType=user_uploads&list=JoesLearningCorner" 
+        allowfullscreen>
+      </iframe>
+
+      <!-- Channel Link -->
+      <div class="channel-card">
+        <h3>Visit the Channel</h3>
+        <p>Explore all tutorials, builds, and experiments.</p>
+        <a href="https://www.youtube.com/@JoesLearningCorner" target="_blank" class="btn">
+          Go to YouTube
+        </a>
+      </div>
+
     </div>
 
   </section>
 
   <footer>
-    <p>© 2026 Your Channel</p>
+    <p>© 2026 Joe's Learning Corner</p>
   </footer>
 
   <script src="script.js"></script>
